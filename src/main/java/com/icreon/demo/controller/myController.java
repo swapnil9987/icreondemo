@@ -17,7 +17,8 @@ import com.icreon.demo.repo.empRepo;
 //myController
 @RestController
 public class myController {
-	
+	@Autowired
+	Employee e1;
 	@Autowired
 	empRepo er;
 //	
