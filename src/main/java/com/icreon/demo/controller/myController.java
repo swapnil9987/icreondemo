@@ -1,6 +1,5 @@
 package com.icreon.demo.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -15,10 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.icreon.demo.model.Employee;
 import com.icreon.demo.repo.empRepo;
-
+//myController
 @RestController
 public class myController {
-
+	@Autowired
+	Employee e;
 	@Autowired
 	empRepo er;
 //	
